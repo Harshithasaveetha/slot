@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:19/11/2024
+## Date:24/11/2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -25,97 +25,111 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```<html>
-<head>
-<title>time table</title>
-</head>
-<body>
-    <table>'
-        <style>
-             table,th,td{border:2px solid black;
-            border-collapse:collapse;}
-        </style>
-        <tr>
-            <td>day</td>
-            <td>8am to 10am</td>
-            <td>10am to 12pm</td>
-            <td>1pm to 3pm</td>
-            <td>3pm to 5pm</td>
-        </tr>
-        <tr>
-        <td>MONDAY</td>
-        <td></td>
-        <td>WEB</td>
-        <td></td>
-        <td></td>
-        </tr>
-        <tr>
-        <td>Tuesday</td>
-        <td>BEEE</td>
-        <td>DE</td>
-        <td>python</td>
-        <td></td>
-        </tr>
-        <tr>
-        <td>Wednesday</td>
-        <td></td>
-        <td>BEEE</td>
-        <td></td>
-        <td></td>
-        </tr>
-        <tr>
-        <td>Thursday</td>
-        <td></td>
-        <td>python</td>
-        <td>WEB</td>
-        <td></td>
-        </tr>
-        <tr>
-        <td>Friday</td>
-        <td></td>
-        <td>DE</td>
-        <td>python</td>
-        <td></td>
-        </tr>
-        <tr>
-        <td>Saturday</td>
-        <td></td>
-        <td>CDS</td>
-        <td>python</td>
-        <td>WEB</td>
-        </tr>
-    </table><br>
-    <table>
-        <style>
-            table,th,td{border:2px solid black;border-collapse: collapse;}
-        </style>
-        <tr>
-            <td>slot number</td>
-            <td>subject</td>
-        </tr>
-        <tr>
-            <td>19AI301C</td>
-            <td>Python and Linear algebra</td>
-        </tr>
-        <tr>
-            <td>19AI414</td>
-            <td>Fundamentals of web application</td>
-        </tr>
-        <tr>
-            <td>19EE305</td>
-            <td>BEEE</td>
-        </tr>
-        <tr>
-            <td>19EE404</td>
-            <td>Digital electronics</td>
-        </tr>
-        <tr>
-            <td>19EY708</td>
-            <td>Career Development skills</td>
-        </tr>
+    <body>
+        <img src="c:\Users\admin\Downloads\sec logo.png">
+         <table border="1" cellspacing="15" cellpadding="2">
+            <caption>Timetable-Harshitha-24900600</caption>
+            
+            <center>
+            <tr bgcolor="blue">
+                <th>Day/Time</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td bgcolor="orange">8 - 10</td>
+                <td bgcolor="yellow colspan="2">Free slot</td>
+                <td>Free slot</td>
+                <td>python</td>
+                <td>phy</td>
+                <td>web</td>
+                <td>eng</td>
+            </tr>
+            <tr>
+                <td>10 - 12</td>
+                <td>python</td>
+                <td>edm</td>
+                <td>eng</td>
+                <td>cds</td>
+                <td>mat</td>
+                <td>phy</td>
+
+            </tr>
+            <tr>
+                <td>12 - 1</td>
+                <td colspan="6">lunch</td>
+            </tr>
+            <tr>
+                <td>1 - 3</td>
+                <td>web</td>
+                <td>web</td>
+                <td>Mentor</td>
+                <td>Free slot</td>
+                <td>edm</td>
+                <td>mat</td>
+            </tr>
         </table>
-        </body>
-        </html>
+        <table border="1">
+            <tr>
+                <th>s.n0</th>
+                <th>course code</th>
+                <th>course name</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>19AI302</td>
+                <td>Engineering Design and Modelling(edm)</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>19AI301</td>
+                <td>python Programming(python)</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>19AI414</td>
+                <td>Fundamental of Web Application(web)</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>19EN101</td>
+                <td>Communicative English(eng)</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>19EY708</td>
+                <td>Career Development Skills(cds)</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>19MA201</td>
+                <td>Calculus and Matrix Algebra(mat)</td>
+             </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>ECA-M-SCOFT</td>
+                    <td>Mentor Meet(mentor)</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>SH3214</td>
+                    <td>Physics for Quantum Computing(phy)</td>
+                </tr>
+                
+                </center>
+        </table>
+    </body>
+</html>
 ```
+            
+        
+        
+       
+            
 ## OUTPUT
 ![alt text](<Screenshot (32).png>)
 
